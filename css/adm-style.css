@@ -1,0 +1,132 @@
+.form-pictures{
+	display: flex;
+	max-width: 800px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.picture-block{
+	width: calc(25% - 10px);
+	height: 140px;
+	background: rgb(242, 244, 245);
+	border-radius: 5px;
+	margin-bottom: 10px; 
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	position: relative;
+}
+.picture-block i{
+	color: rgba(0,0,0,0.5);
+}
+.pictures h3, .form-group h3{
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 700;
+}
+.pictures p{
+	width: 800px;
+} 
+.picture-block:nth-child(1) i{
+	display: none;
+}
+.picture-block:not(:first-child) p{
+	display: none;
+}
+.picture-block p, .picture p{
+	text-align: center;
+	text-decoration: underline;
+}
+.form-pictures input[type='file'], .picture-group input[type='file']{
+	display: none;
+}
+.picture-block .img-container, .picture .img-container{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.picture{
+	width: 720px;
+	height: 540px;
+	background: rgb(242, 244, 245);
+	border-radius: 5px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+.picture-block .main_picture{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 25px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	bottom: 0;
+	left: 0;
+	padding-top: 1px;
+	display: none;
+}
+.checkboxes{
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	flex-wrap: wrap;
+}
+.checkbox{
+	width: calc(33% - 20px);
+}
+.checkbox label{
+	cursor: pointer;
+}
+input[type='checkbox']{
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+	left: 8px;
+}
+.pagination{
+	padding-bottom: 15px;
+}
+.pagination span, .pagination a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#map{
+	height: 500px;
+}
+.coords_block input{
+	width: calc(50% - 100px);
+}
+.coords_block{
+	display: flex;
+	justify-content: space-between;
+}
+.coords_block a{
+	color: #fff;
+    background-color: #007bff;
+    display: block;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.invisible{
+	display: none;
+}
+input#map{
+	height: auto;
+}

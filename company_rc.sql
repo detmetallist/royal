@@ -386,7 +386,7 @@ INSERT INTO `settings` (`id`, `name`, `value`) VALUES
 (95, 'youtube_social', 'https://www.youtube.com/channel/UC65uTuRpGU06kdGAxgJQoCQ'),
 (96, 'twitter_social', 'https://twitter.com/royalcompany201'),
 (97, 'tiktok_social', 'https://www.tiktok.com/@royalcompany.1?fbclid=IwAR0JzTW6ooJNK7bEy8eobNthCMdzSXE8Pzi_ijO3jACY7WSOoYgtbFpMdf4'),
-(98, 'google_api', 'AIzaSyAx2AXp2uuTcFfun4dccUdxM-XFb9k2bFw'),
+(98, 'google_api', ''),
 (99, 'usd', '37.05'),
 (100, 'eur', '39.48'),
 (101, 'pro_title', 'Про компанию'),
